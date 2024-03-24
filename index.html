@@ -9,14 +9,40 @@
   </head>
   <body>
     <div class="container flex-center">
-      <div class="cards"></div>
+      <div class="card">
+        <div id="front" class="cardFront flex-center">
+            <div class="question text-4xl">
+                <div class="kanji jp-kanji"></div>
+              </div>
+              <div class="line"></div>
+              <div class="text-2xl">
+                <ul>
+                  <li class="ex-jp jp-kanji"></li>
+                </ul>
+              </div>
+        </div>
+        <div id="back" class="cardBack flex-center">
+          <div class="answer text-4xl">
+            <div class="kanji jp-kanji"></div>
+            <div class="kana jp-kanji"></div>
+          </div>
+          <div class="line"></div>
+          <div class="meaning text-center text-3xl mb-4"></div>
+          <div class="text-2xl">
+            <ul>
+              <li class="ex-jp jp-kanji"></li>
+              <li class="ex-id"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <div class="buttons">
-        <button class="btn btn-nav shadow">
+        <button id="btn-prev" class="btn btn-nav shadow">
           <i class="fa-solid fa-angle-left"></i>
         </button>
-        <button class="btn flip-btn shadow">Flip</button>
-        <button class="btn btn-nav shadow">
+        <button id="flip-btn" class="btn flip-btn shadow">Flip</button>
+        <button id="btn-next" class="btn btn-nav shadow">
           <i class="fa-solid fa-angle-right"></i>
         </button>
       </div>

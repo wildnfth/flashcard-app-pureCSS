@@ -1,0 +1,24 @@
+[
+    {
+        "kanji": "元気",
+        "kana": "げんき",
+        "meaning": "baik-baik saja",
+        "ex-jp": "元気ですか",
+        "ex-id": "kamu baik?"
+    },
+    {
+        "kanji": "父",
+        "kana": "ちち",
+        "meaning": "ayah",
+        "ex-jp": "父と遊びます",
+        "ex-id": "main sama ayah"
+    },
+    {
+        "kanji": "牛乳",
+        "kana": "ぎゅうにゅう",
+        "meaning": "susu (sapi)",
+        "ex-jp": "牛乳がすき",
+        "ex-id": "aku suka susu"
+    }
+    
+]

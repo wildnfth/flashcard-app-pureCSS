@@ -7,7 +7,7 @@
 }
 
 .btn {
-  color: white;
+  color: var(--background-color);
   padding: 0 0.5rem;
   border-radius: 0.25rem;
   height: 2.75rem;
@@ -16,10 +16,18 @@
   background-color: var(--color-btn);
 }
 
+.btn:hover {
+  background-color: var(--dodger-blue-800);
+}
+
 .btn-nav {
-  background-color: transparent;
+  background-color: var(--background-color);
   border-color: var(--color-btn);
   color: var(--color-btn);
   border-style: solid;
   border-width: 2px;
+}
+
+.btn-nav:hover {
+  color: var(--background-color);
 }
