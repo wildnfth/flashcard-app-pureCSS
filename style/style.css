@@ -1,0 +1,28 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(./buttonstyle.css);
+
+:root {
+  --color-btn: #008aff;
+  --background-color: #f7fcf3;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  background-color: var(--background-color);
+  height: 100dvh;
+  margin: auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
